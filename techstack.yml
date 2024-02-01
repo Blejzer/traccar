@@ -1,0 +1,675 @@
+repo_name: Blejzer/traccar
+report_id: 596b13199a90538099fc18268c24cd2d
+version: 0.1
+repo_type: Public
+timestamp: '2024-02-01T07:40:47+00:00'
+requested_by: tananaev
+provider: github
+branch: master
+detected_tools_count: 51
+tools:
+- name: Java
+  description: A concurrent, class-based, object-oriented, language specifically designed
+    to have as few implementation dependencies as possible
+  website_url: https://www.java.com
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/995/K85ZWV2F.png
+  detection_source_url: https://github.com/Blejzer/traccar
+  detection_source: Repo Metadata
+- name: Python
+  description: A clear and powerful object-oriented programming language, comparable
+    to Perl, Ruby, Scheme, or Java.
+  website_url: https://www.python.org
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/993/pUBY5pVj.png
+  detection_source_url: https://github.com/Blejzer/traccar
+  detection_source: Repo Metadata
+- name: Protobuf
+  description: Google's data interchange format
+  website_url: https://developers.google.com/protocol-buffers/
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Serialization Frameworks
+  image_url: https://img.stackshare.io/service/4393/ma2jqJKH_400x400.png
+  detection_source_url: https://github.com/Blejzer/traccar/blob/master/build.gradle
+  detection_source: build.gradle
+  last_updated_by: Anton Tananaev
+  last_updated_on: 2022-10-02 17:31:57.000000000 Z
+- name: H2 Database
+  description: A relational database management system written in Java
+  website_url: http://www.h2database.com/
+  open_source: false
+  hosted_saas: false
+  category: Data Stores
+  sub_category: Databases
+  image_url: https://img.stackshare.io/service/3105/h2-logo_square_400x400.png
+  detection_source_url: https://github.com/Blejzer/traccar/blob/master/build.gradle
+  detection_source: build.gradle
+  last_updated_by: Anton Tananaev
+  last_updated_on: 2022-10-02 18:15:46.000000000 Z
+- name: Liquibase
+  description: Easily track, version &amp; deploy database changes
+  website_url: https://www.liquibase.com
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Data Stores
+  sub_category: Database Tools
+  image_url: https://img.stackshare.io/service/1398/y1As8_s5_400x400.jpg
+  detection_source_url: https://github.com/Blejzer/traccar/blob/master/build.gradle
+  detection_source: build.gradle
+  last_updated_by: Anton Tananaev
+  last_updated_on: 2022-10-02 18:15:46.000000000 Z
+- name: MSSQL
+  description: It is an enterprise-level database system that is very popular for
+    Windows web servers
+  website_url: https://www.microsoft.com/en-us/sql-server
+  open_source: false
+  hosted_saas: false
+  category: Data Stores
+  sub_category: Databases
+  image_url: https://img.stackshare.io/service/2445/ZKsJsucq_400x400.jpg
+  detection_source_url: https://github.com/Blejzer/traccar/blob/master/build.gradle
+  detection_source: build.gradle
+  last_updated_by: Anton Tananaev
+  last_updated_on: 2019-04-01 05:35:39.000000000 Z
+- name: Microsoft SQL Server
+  description: A relational database management system developed by Microsoft
+  website_url: http://microsoft.com/sqlserver
+  open_source: false
+  hosted_saas: false
+  category: Data Stores
+  sub_category: Databases
+  image_url: https://img.stackshare.io/service/1027/sql_server.png
+  detection_source_url: https://github.com/Blejzer/traccar/blob/master/build.gradle
+  detection_source: build.gradle
+  last_updated_by: Anton Tananaev
+  last_updated_on: 2022-10-02 18:15:46.000000000 Z
+- name: PostgreSQL
+  description: A powerful, open source object-relational database system
+  website_url: http://www.postgresql.org/
+  open_source: true
+  hosted_saas: false
+  category: Data Stores
+  sub_category: Databases
+  image_url: https://img.stackshare.io/service/1028/ASOhU5xJ.png
+  detection_source_url: https://github.com/Blejzer/traccar/blob/master/build.gradle
+  detection_source: build.gradle
+  last_updated_by: Anton Tananaev
+  last_updated_on: 2022-10-02 18:15:46.000000000 Z
+- name: Git
+  description: Fast, scalable, distributed revision control system
+  website_url: http://git-scm.com/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Version Control System
+  image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source_url: https://github.com/Blejzer/traccar
+  detection_source: Repo Metadata
+- name: GitHub Actions
+  description: Automate your workflow from idea to production
+  website_url: https://github.com/features/actions
+  open_source: false
+  hosted_saas: true
+  category: Build, Test, Deploy
+  sub_category: Continuous Integration
+  image_url: https://img.stackshare.io/service/11563/actions.png
+  detection_source_url: https://github.com/Blejzer/traccar/blob/master/.github/workflows/gradle.yml
+  detection_source: ".github/workflows/gradle.yml"
+  last_updated_by: Anton Tananaev
+  last_updated_on: 2022-06-29 17:10:24.000000000 Z
+- name: Gradle
+  description: A powerful build system for the JVM
+  website_url: https://www.gradle.org/
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Java Build Tools
+  image_url: https://img.stackshare.io/service/975/gradlephant-social-black-bg.png
+  detection_source_url: https://github.com/Blejzer/traccar/blob/master/build.gradle
+  detection_source: build.gradle
+  last_updated_by: Anton Tananaev
+  last_updated_on: 2022-10-02 17:34:31.000000000 Z
+- name: SLF4J
+  description: Simple logging facade for Java
+  website_url: http://slf4j.org/
+  open_source: false
+  hosted_saas: false
+  category: Monitoring
+  sub_category: Log Management
+  image_url: https://img.stackshare.io/service/2805/05518ecaa42841e834421e9d6987b04f_400x400.png
+  detection_source_url: https://github.com/Blejzer/traccar/blob/master/build.gradle
+  detection_source: build.gradle
+  last_updated_by: Anton Tananaev
+  last_updated_on: 2019-04-01 05:35:39.000000000 Z
+- name: Shell
+  description: A shell is a text-based terminal, used for manipulating programs and
+    files. Shell scripts typically manage program execution.
+  website_url: https://en.wikipedia.org/wiki/Shell_script
+  open_source: false
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/4631/default_c2062d40130562bdc836c13dbca02d318205a962.png
+  detection_source_url: https://github.com/Blejzer/traccar
+  detection_source: Repo Metadata
+- name: com.amazonaws:aws-java-sdk-sns
+  description: The AWS Java SDK for Amazon SNS module holds the client classes that
+    are used for communicating with Amazon Simple Notification Service
+  version: 1.12.314
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/Blejzer/traccar/blob/master/build.gradle
+  detection_source: build.gradle
+  last_updated_by: Anton Tananaev
+  last_updated_on: 2022-10-02 18:15:46.000000000 Z
+- name: com.fasterxml.jackson.jaxrs:jackson-jaxrs-json-provider
+  description: Functionality to handle JSON input/output for JAX-RS implementations
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/Blejzer/traccar/blob/master/build.gradle
+  detection_source: build.gradle
+  last_updated_by: Anton Tananaev
+  last_updated_on: 2022-10-02 18:15:46.000000000 Z
+- name: com.github.jnr:jnr-posix
+  description: Common cross-project/cross-platform POSIX APIs
+  version: 3.1.15
+  license: EPL-2.0,GPL-3.0-only,LGPL-3.0-only
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/Blejzer/traccar/blob/master/build.gradle
+  detection_source: build.gradle
+  last_updated_by: Anton Tananaev
+  last_updated_on: 2022-10-02 18:15:46.000000000 Z
+- name: com.google.inject.extensions:guice-servlet
+  description: Guice
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/Blejzer/traccar/blob/master/build.gradle
+  detection_source: build.gradle
+  last_updated_by: Anton Tananaev
+  last_updated_on: 2022-10-02 18:36:08.000000000 Z
+- name: com.google.inject:guice
+  description: Guice is a lightweight dependency injection framework for Java 6 and
+    above
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/Blejzer/traccar/blob/master/build.gradle
+  detection_source: build.gradle
+  last_updated_by: Anton Tananaev
+  last_updated_on: 2022-10-02 18:15:46.000000000 Z
+- name: com.google.protobuf:protobuf-java
+  description: Core Protocol Buffers library
+  license: BSD-1-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/Blejzer/traccar/blob/master/build.gradle
+  detection_source: build.gradle
+  last_updated_by: Anton Tananaev
+  last_updated_on: 2022-10-02 18:15:46.000000000 Z
+- name: com.h2database:h2
+  description: H2 Database Engine
+  version: 2.1.214
+  license: MIT-feh
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/Blejzer/traccar/blob/master/build.gradle
+  detection_source: build.gradle
+  last_updated_by: Anton Tananaev
+  last_updated_on: 2022-10-02 18:15:46.000000000 Z
+  vulnerabilities:
+  - name: 'Password exposure in H2 Database '
+    cve_id: CVE-2022-45868
+    cve_url: https://github.com/advisories/GHSA-22wj-vf5f-wrvj
+    detected_date: Nov 24
+    severity: high
+    first_patched: 2.2.220
+- name: com.microsoft.sqlserver:mssql-jdbc
+  description: Microsoft JDBC 4.1 Driver for SQL Server
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/Blejzer/traccar/blob/master/build.gradle
+  detection_source: build.gradle
+  last_updated_by: Anton Tananaev
+  last_updated_on: 2022-10-02 18:15:46.000000000 Z
+- name: com.sun.mail:javax.mail
+  description: "${project.name}"
+  version: 1.6.2
+  license: CNRI-Python-GPL-Compatible
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/Blejzer/traccar/blob/master/build.gradle
+  detection_source: build.gradle
+  last_updated_by: Anton Tananaev
+  last_updated_on: 2022-10-02 18:15:46.000000000 Z
+- name: com.sun.xml.bind:jaxb-core
+  description: Old JAXB Core module
+  version: 3.0.2
+  license: Other
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/Blejzer/traccar/blob/master/build.gradle
+  detection_source: build.gradle
+  last_updated_by: Anton Tananaev
+  last_updated_on: 2022-10-02 18:15:46.000000000 Z
+- name: com.sun.xml.bind:jaxb-impl
+  description: JAXB
+  version: 3.0.2
+  license: CDDL-1.1,CNRI-Python-GPL-Compatible
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/Blejzer/traccar/blob/master/build.gradle
+  detection_source: build.gradle
+  last_updated_by: Anton Tananaev
+  last_updated_on: 2022-10-02 18:15:46.000000000 Z
+- name: com.zaxxer:HikariCP
+  description: Ultimate JDBC Connection Pool
+  version: 5.0.1
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/Blejzer/traccar/blob/master/build.gradle
+  detection_source: build.gradle
+  last_updated_by: Anton Tananaev
+  last_updated_on: 2022-10-02 18:15:46.000000000 Z
+- name: commons-codec:commons-codec
+  description: The Apache Commons Codec package contains simple encoder and decoders
+    for various formats such as Base64 and Hexadecimal
+  version: '1.15'
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/Blejzer/traccar/blob/master/build.gradle
+  detection_source: build.gradle
+  last_updated_by: Anton Tananaev
+  last_updated_on: 2022-10-02 18:15:46.000000000 Z
+- name: io.netty:netty-all
+  description: Netty is an asynchronous event-driven network application framework
+    for rapid development of maintainable high performance protocol servers and clients
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/Blejzer/traccar/blob/master/build.gradle
+  detection_source: build.gradle
+  last_updated_by: Anton Tananaev
+  last_updated_on: 2022-10-02 18:15:46.000000000 Z
+- name: javax.activation:activation
+  description: The JavaBeans
+  version: 1.1.1
+  license: CDDL-1.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/Blejzer/traccar/blob/master/build.gradle
+  detection_source: build.gradle
+  last_updated_by: Anton Tananaev
+  last_updated_on: 2022-10-02 18:36:08.000000000 Z
+- name: javax.xml.bind:jaxb-api
+  description: JAXB
+  version: 2.3.1
+  license: CDDL-1.1,CNRI-Python-GPL-Compatible
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/Blejzer/traccar/blob/master/build.gradle
+  detection_source: build.gradle
+  last_updated_by: Anton Tananaev
+  last_updated_on: 2022-10-02 18:15:46.000000000 Z
+- name: junit:junit
+  description: JUnit is a unit testing framework for Java
+  version: 4.13.2
+  license: EPL-1.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/Blejzer/traccar/blob/master/build.gradle
+  detection_source: build.gradle
+  last_updated_by: Anton Tananaev
+  last_updated_on: 2021-06-01 05:57:34.000000000 Z
+- name: mysql:mysql-connector-java
+  description: MySQL JDBC Type 4 driver
+  version: 8.0.30
+  license: GPL-3.0-only
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/Blejzer/traccar/blob/master/build.gradle
+  detection_source: build.gradle
+  last_updated_by: Anton Tananaev
+  last_updated_on: 2022-10-02 18:15:46.000000000 Z
+- name: net.java.dev.jna:jna-platform
+  description: Java Native Access Platform
+  version: 5.12.1
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/Blejzer/traccar/blob/master/build.gradle
+  detection_source: build.gradle
+  last_updated_by: Anton Tananaev
+  last_updated_on: 2022-10-02 18:15:46.000000000 Z
+- name: org.apache.commons:commons-collections4
+  description: The Apache Commons Collections package contains types that extend and
+    augment the Java Collections Framework
+  version: '4.4'
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/Blejzer/traccar/blob/master/build.gradle
+  detection_source: build.gradle
+  last_updated_by: Anton Tananaev
+  last_updated_on: 2022-10-02 18:36:08.000000000 Z
+- name: org.apache.velocity:velocity
+  description: Apache Velocity is a general purpose template engine
+  version: '1.7'
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/Blejzer/traccar/blob/master/build.gradle
+  detection_source: build.gradle
+  last_updated_by: Anton Tananaev
+  last_updated_on: 2022-10-02 18:15:46.000000000 Z
+  vulnerabilities:
+  - name: Sandbox Bypass in Apache Velocity Engine
+    cve_id: CVE-2020-13936
+    cve_url: https://github.com/advisories/GHSA-59j4-wjwp-mw9m
+    detected_date: Jan 28
+    severity: high
+    first_patched: 
+- name: org.apache.velocity:velocity-tools
+  description: VelocityTools is an integrated collection of Velocity subprojects with
+    the common goal of creating tools and infrastructure to speed and ease development
+    of both web and non-web...
+  version: '2.0'
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/Blejzer/traccar/blob/master/build.gradle
+  detection_source: build.gradle
+  last_updated_by: Anton Tananaev
+  last_updated_on: 2022-10-02 18:15:46.000000000 Z
+  vulnerabilities:
+  - name: Cross-site scripting (XSS) in Apache Velocity Tools
+    cve_id: CVE-2020-13959
+    cve_url: https://github.com/advisories/GHSA-fh63-4r66-jc7v
+    detected_date: Aug 22
+    severity: moderate
+    first_patched: 
+- name: org.eclipse.jetty:jetty-jndi
+  description: JNDI spi impl for java namespace
+  license: Apache-2.0,EPL-1.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/Blejzer/traccar/blob/master/build.gradle
+  detection_source: build.gradle
+  last_updated_by: Anton Tananaev
+  last_updated_on: 2022-10-02 18:15:46.000000000 Z
+- name: org.eclipse.jetty:jetty-proxy
+  description: Jetty Proxy
+  license: Apache-2.0,EPL-1.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/Blejzer/traccar/blob/master/build.gradle
+  detection_source: build.gradle
+  last_updated_by: Anton Tananaev
+  last_updated_on: 2022-10-02 18:15:46.000000000 Z
+- name: org.eclipse.jetty:jetty-server
+  description: The core jetty server artifact
+  license: Apache-2.0,EPL-1.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/Blejzer/traccar/blob/master/build.gradle
+  detection_source: build.gradle
+  last_updated_by: Anton Tananaev
+  last_updated_on: 2022-10-02 18:15:46.000000000 Z
+- name: org.eclipse.jetty:jetty-servlet
+  description: Jetty Servlet Container
+  license: Apache-2.0,EPL-1.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/Blejzer/traccar/blob/master/build.gradle
+  detection_source: build.gradle
+  last_updated_by: Anton Tananaev
+  last_updated_on: 2022-10-02 18:15:46.000000000 Z
+- name: org.eclipse.jetty:jetty-servlets
+  description: Utility Servlets from Jetty
+  license: Apache-2.0,EPL-1.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/Blejzer/traccar/blob/master/build.gradle
+  detection_source: build.gradle
+  last_updated_by: Anton Tananaev
+  last_updated_on: 2022-10-02 18:15:46.000000000 Z
+- name: org.eclipse.jetty:jetty-webapp
+  description: Jetty web application support
+  license: Apache-2.0,EPL-1.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/Blejzer/traccar/blob/master/build.gradle
+  detection_source: build.gradle
+  last_updated_by: Anton Tananaev
+  last_updated_on: 2022-10-02 18:15:46.000000000 Z
+- name: org.glassfish.jersey.containers:jersey-container-servlet
+  description: Jersey core Servlet 3.x implementation
+  license: NetCDF
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/Blejzer/traccar/blob/master/build.gradle
+  detection_source: build.gradle
+  last_updated_by: Anton Tananaev
+  last_updated_on: 2022-10-02 18:15:46.000000000 Z
+- name: org.glassfish.jersey.inject:jersey-hk2
+  description: HK2 InjectionManager implementation
+  open_source: false
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/Blejzer/traccar/blob/master/build.gradle
+  detection_source: build.gradle
+  last_updated_by: Anton Tananaev
+  last_updated_on: 2022-10-02 18:15:46.000000000 Z
+- name: org.glassfish.jersey.media:jersey-media-json-jackson
+  description: Jersey JSON Jackson entity providers support module
+  license: NetCDF
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/Blejzer/traccar/blob/master/build.gradle
+  detection_source: build.gradle
+  last_updated_by: Anton Tananaev
+  last_updated_on: 2022-10-02 18:15:46.000000000 Z
+- name: org.glassfish:javax.json
+  description: Default provider for JSR 374:Java API for Processing JSON
+  version: 1.1.4
+  license: Artistic-1.0,GPL-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/Blejzer/traccar/blob/master/build.gradle
+  detection_source: build.gradle
+  last_updated_by: Anton Tananaev
+  last_updated_on: 2022-10-02 18:15:46.000000000 Z
+- name: org.jxls:jxls
+  description: Small library for Excel generation based on XLS templates
+  version: 2.4.7
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/Blejzer/traccar/blob/master/build.gradle
+  detection_source: build.gradle
+  last_updated_by: Anton Tananaev
+  last_updated_on: 2022-10-02 18:15:46.000000000 Z
+- name: org.liquibase:liquibase-core
+  description: Liquibase is a tool for managing and executing database changes
+  version: 4.16.1
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/Blejzer/traccar/blob/master/build.gradle
+  detection_source: build.gradle
+  last_updated_by: Anton Tananaev
+  last_updated_on: 2022-10-02 18:15:46.000000000 Z
+- name: org.locationtech.jts:jts-core
+  version: 1.19.0
+  open_source: false
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/Blejzer/traccar/blob/master/build.gradle
+  detection_source: build.gradle
+  last_updated_by: Anton Tananaev
+  last_updated_on: 2022-10-02 18:36:08.000000000 Z
+- name: org.mnode.ical4j:ical4j
+  description: A Java library for reading and writing iCalendar
+  version: 3.2.5
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/Blejzer/traccar/blob/master/build.gradle
+  detection_source: build.gradle
+  last_updated_by: Anton Tananaev
+  last_updated_on: 2022-10-02 18:15:46.000000000 Z
+- name: org.postgresql:postgresql
+  description: The PostgreSQL Driver JDBC4
+  version: 42.5.0
+  license: BSD-2-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/Blejzer/traccar/blob/master/build.gradle
+  detection_source: build.gradle
+  last_updated_by: Anton Tananaev
+  last_updated_on: 2022-10-02 18:15:46.000000000 Z
+  vulnerabilities:
+  - name: TemporaryFolder on unix-like systems does not limit access to created files
+    cve_id: CVE-2022-41946
+    cve_url: https://github.com/advisories/GHSA-562r-vg33-8x8h
+    detected_date: Nov 24
+    severity: moderate
+    first_patched: 42.5.1
+- name: org.slf4j:slf4j-jdk14
+  description: SLF4J JDK14 Binding
+  version: 2.0.3
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/Blejzer/traccar/blob/master/build.gradle
+  detection_source: build.gradle
+  last_updated_by: Anton Tananaev
+  last_updated_on: 2022-10-02 18:15:46.000000000 Z
