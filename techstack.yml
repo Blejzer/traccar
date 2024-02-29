@@ -2,7 +2,7 @@ repo_name: Blejzer/traccar
 report_id: 596b13199a90538099fc18268c24cd2d
 version: 0.1
 repo_type: Public
-timestamp: '2024-02-01T07:40:47+00:00'
+timestamp: '2024-02-29T19:49:09+00:00'
 requested_by: tananaev
 provider: github
 branch: master
@@ -654,6 +654,18 @@ tools:
   last_updated_by: Anton Tananaev
   last_updated_on: 2022-10-02 18:15:46.000000000 Z
   vulnerabilities:
+  - name: org.postgresql:postgresql vulnerable to SQL Injection via line comment generation
+    cve_id: CVE-2024-1597
+    cve_url: https://github.com/advisories/GHSA-24rp-q3w6-vc56
+    detected_date: Feb 22
+    severity: critical
+    first_patched: 42.5.5
+  - name: 'Duplicate Advisory: SQL injection in pgjdbc'
+    cve_id: 
+    cve_url: https://github.com/advisories/GHSA-xfg6-62px-cxc2
+    detected_date: Feb 21
+    severity: critical
+    first_patched: 42.5.5
   - name: TemporaryFolder on unix-like systems does not limit access to created files
     cve_id: CVE-2022-41946
     cve_url: https://github.com/advisories/GHSA-562r-vg33-8x8h
