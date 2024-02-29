@@ -3,18 +3,18 @@
 ## Tech Stack
 Blejzer/traccar is built on the following main stack:
 
-- [Gradle](https://www.gradle.org/) – Java Build Tools
-- [Python](https://www.python.org) – Languages
 - [Java](https://www.java.com) – Languages
-- [Microsoft SQL Server](http://microsoft.com/sqlserver) – Databases
-- [PostgreSQL](http://www.postgresql.org/) – Databases
+- [Python](https://www.python.org) – Languages
+- [Protobuf](https://developers.google.com/protocol-buffers/) – Serialization Frameworks
+- [H2 Database](http://www.h2database.com/) – Databases
 - [Liquibase](https://www.liquibase.com) – Database Tools
 - [MSSQL](https://www.microsoft.com/en-us/sql-server) – Databases
-- [SLF4J](http://slf4j.org/) – Log Management
-- [H2 Database](http://www.h2database.com/) – Databases
-- [Protobuf](https://developers.google.com/protocol-buffers/) – Serialization Frameworks
-- [Shell](https://en.wikipedia.org/wiki/Shell_script) – Shells
+- [Microsoft SQL Server](http://microsoft.com/sqlserver) – Databases
+- [PostgreSQL](http://www.postgresql.org/) – Databases
 - [GitHub Actions](https://github.com/features/actions) – Continuous Integration
+- [Gradle](https://www.gradle.org/) – Java Build Tools
+- [SLF4J](http://slf4j.org/) – Log Management
+- [Shell](https://en.wikipedia.org/wiki/Shell_script) – Shells
 
 Full tech stack [here](/techstack.md)
 
@@ -24,18 +24,18 @@ Full tech stack [here](/techstack.md)
 ## Tech Stack
 Blejzer/traccar is built on the following main stack:
 
-- <img width='25' height='25' src='https://img.stackshare.io/service/975/gradlephant-social-black-bg.png' alt='Gradle'/> [Gradle](https://www.gradle.org/) – Java Build Tools
-- <img width='25' height='25' src='https://img.stackshare.io/service/993/pUBY5pVj.png' alt='Python'/> [Python](https://www.python.org) – Languages
 - <img width='25' height='25' src='https://img.stackshare.io/service/995/K85ZWV2F.png' alt='Java'/> [Java](https://www.java.com) – Languages
-- <img width='25' height='25' src='https://img.stackshare.io/service/1027/sql_server.png' alt='Microsoft SQL Server'/> [Microsoft SQL Server](http://microsoft.com/sqlserver) – Databases
-- <img width='25' height='25' src='https://img.stackshare.io/service/1028/ASOhU5xJ.png' alt='PostgreSQL'/> [PostgreSQL](http://www.postgresql.org/) – Databases
+- <img width='25' height='25' src='https://img.stackshare.io/service/993/pUBY5pVj.png' alt='Python'/> [Python](https://www.python.org) – Languages
+- <img width='25' height='25' src='https://img.stackshare.io/service/4393/ma2jqJKH_400x400.png' alt='Protobuf'/> [Protobuf](https://developers.google.com/protocol-buffers/) – Serialization Frameworks
+- <img width='25' height='25' src='https://img.stackshare.io/service/3105/h2-logo_square_400x400.png' alt='H2 Database'/> [H2 Database](http://www.h2database.com/) – Databases
 - <img width='25' height='25' src='https://img.stackshare.io/service/1398/y1As8_s5_400x400.jpg' alt='Liquibase'/> [Liquibase](https://www.liquibase.com) – Database Tools
 - <img width='25' height='25' src='https://img.stackshare.io/service/2445/ZKsJsucq_400x400.jpg' alt='MSSQL'/> [MSSQL](https://www.microsoft.com/en-us/sql-server) – Databases
-- <img width='25' height='25' src='https://img.stackshare.io/service/2805/05518ecaa42841e834421e9d6987b04f_400x400.png' alt='SLF4J'/> [SLF4J](http://slf4j.org/) – Log Management
-- <img width='25' height='25' src='https://img.stackshare.io/service/3105/h2-logo_square_400x400.png' alt='H2 Database'/> [H2 Database](http://www.h2database.com/) – Databases
-- <img width='25' height='25' src='https://img.stackshare.io/service/4393/ma2jqJKH_400x400.png' alt='Protobuf'/> [Protobuf](https://developers.google.com/protocol-buffers/) – Serialization Frameworks
-- <img width='25' height='25' src='https://img.stackshare.io/service/4631/default_c2062d40130562bdc836c13dbca02d318205a962.png' alt='Shell'/> [Shell](https://en.wikipedia.org/wiki/Shell_script) – Shells
+- <img width='25' height='25' src='https://img.stackshare.io/service/1027/sql_server.png' alt='Microsoft SQL Server'/> [Microsoft SQL Server](http://microsoft.com/sqlserver) – Databases
+- <img width='25' height='25' src='https://img.stackshare.io/service/1028/ASOhU5xJ.png' alt='PostgreSQL'/> [PostgreSQL](http://www.postgresql.org/) – Databases
 - <img width='25' height='25' src='https://img.stackshare.io/service/11563/actions.png' alt='GitHub Actions'/> [GitHub Actions](https://github.com/features/actions) – Continuous Integration
+- <img width='25' height='25' src='https://img.stackshare.io/service/975/gradlephant-social-black-bg.png' alt='Gradle'/> [Gradle](https://www.gradle.org/) – Java Build Tools
+- <img width='25' height='25' src='https://img.stackshare.io/service/2805/05518ecaa42841e834421e9d6987b04f_400x400.png' alt='SLF4J'/> [SLF4J](http://slf4j.org/) – Log Management
+- <img width='25' height='25' src='https://img.stackshare.io/service/4631/default_c2062d40130562bdc836c13dbca02d318205a962.png' alt='Shell'/> [Shell](https://en.wikipedia.org/wiki/Shell_script) – Shells
 
 Full tech stack [here](/techstack.md)
 
@@ -46,7 +46,7 @@ Full tech stack [here](/techstack.md)
 # Tech Stack File
 ![](https://img.stackshare.io/repo.svg "repo") [Blejzer/traccar](https://github.com/Blejzer/traccar)![](https://img.stackshare.io/public_badge.svg "public")
 <br/><br/>
-|51<br/>Tools used|02/01/24 <br/>Report generated|
+|51<br/>Tools used|02/29/24 <br/>Report generated|
 |------|------|
 </div>
 
@@ -222,7 +222,7 @@ Full tech stack [here](/techstack.md)
 |[org.liquibase:liquibase-core](http://www.liquibase.org/liquibase-root/liquibase-dist)|v4.16.1|10/02/22|Anton Tananaev |Apache-2.0|N/A|
 |[org.locationtech.jts:jts-core]()|v1.19.0|10/02/22|Anton Tananaev |N/A|N/A|
 |[org.mnode.ical4j:ical4j](http://ical4j.github.io)|v3.2.5|10/02/22|Anton Tananaev |BSD-3-Clause|N/A|
-|[org.postgresql:postgresql](http://jdbc.postgresql.org)|v42.5.0|10/02/22|Anton Tananaev |BSD-2-Clause|[CVE-2022-41946](https://github.com/advisories/GHSA-562r-vg33-8x8h) (Moderate)|
+|[org.postgresql:postgresql](http://jdbc.postgresql.org)|v42.5.0|10/02/22|Anton Tananaev |BSD-2-Clause|[CVE-2024-1597](https://github.com/advisories/GHSA-24rp-q3w6-vc56) (Critical)<br/>[](https://github.com/advisories/GHSA-xfg6-62px-cxc2) (Critical)<br/>[CVE-2022-41946](https://github.com/advisories/GHSA-562r-vg33-8x8h) (Moderate)|
 |[org.slf4j:slf4j-jdk14](http://www.slf4j.org)|v2.0.3|10/02/22|Anton Tananaev |MIT|N/A|
 
 <br/>
